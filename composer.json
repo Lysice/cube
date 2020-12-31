@@ -1,0 +1,23 @@
+{
+    "name": "lysice/cube",
+    "description": "a simple framework for php",
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Core\\": "core/",
+            "Core\\Request\\": "core/Request"
+        },
+        "files" : [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "snowist",
+            "email": "snowist@126.com"
+        }
+    ],
+    "require": {
+        "psr/container": "^1.0"
+    }
+}
